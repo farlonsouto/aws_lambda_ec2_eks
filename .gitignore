@@ -1,0 +1,33 @@
+# ==========================================
+# 1. Environment & Conda Files
+# ==========================================
+# Ignore local environment installations if created inside the project
+.conda/
+.venv/
+env/
+venv/
+
+# ==========================================
+# 2. Python Caches and Build Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# 3. OS & IDE Metadata
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
+
+# ==========================================
+# 4. AWS Lambda Deployment Artifacts
+# ==========================================
+# In case you build ZIPs or layers locally for testing
+*.zip
+.aws-sam/
+

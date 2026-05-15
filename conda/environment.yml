@@ -1,0 +1,27 @@
+name: aws
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # Core AWS Development & Infrastructure
+  - boto3
+  - botocore
+  - awscli
+  # Web UI & Application Framework
+  - streamlit
+  # Data Manipulation & Performance
+  - numpy
+  - pandas
+  - pyyaml
+  # Production Utilities
+  - pydantic
+  - python-dotenv
+  - pip:
+    # AWS Serverless & Kubernetes Tooling
+    - aws-sam-cli
+    - kubernetes
+    # Streamlit Add-ons (Optional but highly recommended)
+    - streamlit-extras
+
